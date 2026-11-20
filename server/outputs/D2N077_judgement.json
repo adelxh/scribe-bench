@@ -1,0 +1,825 @@
+{
+  "encounter_id": "D2N077",
+  "judge_model": "perplexity/pplx-decider-v1.3:free",
+  "counts": {
+    "correct": 57,
+    "missed": 18,
+    "wrong": 5,
+    "unjudged": 0
+  },
+  "total": 80,
+  "sections": {
+    "DIAGNOSES/CONDITIONS": [
+      {
+        "fact": "Right wrist Colles fracture",
+        "verdict": "correct",
+        "confidence": 0.9945010652732699,
+        "probabilities": {
+          "correct": 0.9963340435155132,
+          "missed": 0.0008590008588597442,
+          "wrong": 0.002806955625627
+        }
+      }
+    ],
+    "SYMPTOMS": [
+      {
+        "fact": "Chief complaint is a right wrist injury",
+        "verdict": "correct",
+        "confidence": 0.9697863130862983,
+        "probabilities": {
+          "correct": 0.9798575420575323,
+          "missed": 0.00489782049737755,
+          "wrong": 0.015244637445090269
+        }
+      },
+      {
+        "fact": "Injury happened yesterday morning, 05/12/2022",
+        "verdict": "correct",
+        "confidence": 0.3738064048487812,
+        "probabilities": {
+          "correct": 0.5825376032325208,
+          "missed": 0.03712766891284516,
+          "wrong": 0.3803347278546341
+        }
+      },
+      {
+        "fact": "Patient slipped on the stairs",
+        "verdict": "correct",
+        "confidence": 0.9776192882307191,
+        "probabilities": {
+          "correct": 0.9850795254871461,
+          "missed": 0.0039036053476668654,
+          "wrong": 0.011016869165187088
+        }
+      },
+      {
+        "fact": "Patient was carrying a laundry basket when injured",
+        "verdict": "missed",
+        "confidence": 0.5482544016278147,
+        "probabilities": {
+          "correct": 0.06296067650379274,
+          "missed": 0.6988362677518765,
+          "wrong": 0.23820305574433084
+        }
+      },
+      {
+        "fact": "Patient tried to catch herself with her arms outstretched",
+        "verdict": "correct",
+        "confidence": 0.978337465312654,
+        "probabilities": {
+          "correct": 0.985558310208436,
+          "missed": 0.005855444549341729,
+          "wrong": 0.008586245242222247
+        }
+      },
+      {
+        "fact": "Patient reports immediate onset of pain in her right wrist",
+        "verdict": "correct",
+        "confidence": 0.9830707935339955,
+        "probabilities": {
+          "correct": 0.9887138623559971,
+          "missed": 0.004319203869681046,
+          "wrong": 0.00696693377432191
+        }
+      },
+      {
+        "fact": "Patient reports swelling in her right wrist",
+        "verdict": "correct",
+        "confidence": 0.9918902331906523,
+        "probabilities": {
+          "correct": 0.9945934887937683,
+          "missed": 0.0023340136431526347,
+          "wrong": 0.00307249756307897
+        }
+      },
+      {
+        "fact": "Patient denies any previous injuries to her right arm",
+        "verdict": "correct",
+        "confidence": 0.9895162247911451,
+        "probabilities": {
+          "correct": 0.9930108165274301,
+          "missed": 0.003961074663427683,
+          "wrong": 0.0030281088091422513
+        }
+      },
+      {
+        "fact": "Patient rates her pain level as 9/10",
+        "verdict": "correct",
+        "confidence": 0.9892225729999468,
+        "probabilities": {
+          "correct": 0.9928150486666313,
+          "missed": 0.0028435214084703646,
+          "wrong": 0.004341429924898227
+        }
+      },
+      {
+        "fact": "Pain is aggravated by movement",
+        "verdict": "correct",
+        "confidence": 0.9857981654792829,
+        "probabilities": {
+          "correct": 0.990532110319522,
+          "missed": 0.005051082064387606,
+          "wrong": 0.004416807616090435
+        }
+      },
+      {
+        "fact": "Patient reports numbness in the digits of the right hand",
+        "verdict": "wrong",
+        "confidence": 0.89003709483183,
+        "probabilities": {
+          "correct": 0.014603461502411442,
+          "missed": 0.05870514194303506,
+          "wrong": 0.9266913965545535
+        }
+      },
+      {
+        "fact": "Patient reports tingling in the digits of the right hand",
+        "verdict": "correct",
+        "confidence": 0.8178564331084877,
+        "probabilities": {
+          "correct": 0.8785709554056585,
+          "missed": 0.03172144113463109,
+          "wrong": 0.08970760345971031
+        }
+      },
+      {
+        "fact": "Patient has been icing her right wrist",
+        "verdict": "correct",
+        "confidence": 0.9355392180517822,
+        "probabilities": {
+          "correct": 0.9570261453678548,
+          "missed": 0.021024146443552282,
+          "wrong": 0.021949708188592855
+        }
+      },
+      {
+        "fact": "Patient has been wrapping her right wrist with an ACE wrap",
+        "verdict": "correct",
+        "confidence": 0.9446688834070385,
+        "probabilities": {
+          "correct": 0.9631125889380256,
+          "missed": 0.013136715846252629,
+          "wrong": 0.023750695215721776
+        }
+      },
+      {
+        "fact": "Resting her fully extended arm on a pillow alleviates some of her pain",
+        "verdict": "correct",
+        "confidence": 0.33096861452263554,
+        "probabilities": {
+          "correct": 0.5539790763484237,
+          "missed": 0.02604072975318004,
+          "wrong": 0.41998019389839614
+        }
+      }
+    ],
+    "MEDICATION": [
+      {
+        "fact": "Patient has been taking ibuprofen",
+        "verdict": "correct",
+        "confidence": 0.9758470072696661,
+        "probabilities": {
+          "correct": 0.9838980048464441,
+          "missed": 0.0029993415880958676,
+          "wrong": 0.013102653565460294
+        }
+      },
+      {
+        "fact": "Ibuprofen provides some relief",
+        "verdict": "correct",
+        "confidence": 0.978735838446202,
+        "probabilities": {
+          "correct": 0.9858238922974681,
+          "missed": 0.006076132002064896,
+          "wrong": 0.008099975700466926
+        }
+      },
+      {
+        "fact": "Ultram is prescribed",
+        "verdict": "correct",
+        "confidence": 0.9708203500747868,
+        "probabilities": {
+          "correct": 0.9805469000498579,
+          "missed": 0.0022623221471376404,
+          "wrong": 0.01719077780300454
+        }
+      },
+      {
+        "fact": "Ultram dose is 50 mg",
+        "verdict": "correct",
+        "confidence": 0.9977720857402519,
+        "probabilities": {
+          "correct": 0.9985147238268347,
+          "missed": 0.00047257689294938164,
+          "wrong": 0.0010126992802159515
+        }
+      },
+      {
+        "fact": "Ultram is taken every 6 hours",
+        "verdict": "correct",
+        "confidence": 0.9954977874176335,
+        "probabilities": {
+          "correct": 0.9969985249450891,
+          "missed": 0.0006725719894053494,
+          "wrong": 0.0023289030655056124
+        }
+      },
+      {
+        "fact": "Ultram is to treat pain",
+        "verdict": "correct",
+        "confidence": 0.9849765973328102,
+        "probabilities": {
+          "correct": 0.9899843982218735,
+          "missed": 0.004547463479595186,
+          "wrong": 0.005468138298531253
+        }
+      }
+    ],
+    "VITALS/LABS": [
+      {
+        "fact": "Blood pressure is elevated at 140/70 mmHg",
+        "verdict": "correct",
+        "confidence": 0.9903411844777592,
+        "probabilities": {
+          "correct": 0.9935607896518395,
+          "missed": 0.0008318255683322185,
+          "wrong": 0.005607384779828295
+        }
+      },
+      {
+        "fact": "Heart rate is 80 beats per minute",
+        "verdict": "correct",
+        "confidence": 0.9961791769948979,
+        "probabilities": {
+          "correct": 0.9974527846632653,
+          "missed": 0.0010676441840822073,
+          "wrong": 0.0014795711526523602
+        }
+      },
+      {
+        "fact": "Respiratory rate is 20 breaths per minute",
+        "verdict": "correct",
+        "confidence": 0.9940947430914702,
+        "probabilities": {
+          "correct": 0.9960631620609801,
+          "missed": 0.001978822484708647,
+          "wrong": 0.0019580154543112154
+        }
+      },
+      {
+        "fact": "Body temperature is 97.2 degrees F",
+        "verdict": "correct",
+        "confidence": 0.9941198270700374,
+        "probabilities": {
+          "correct": 0.9960798847133584,
+          "missed": 0.0011988330116498218,
+          "wrong": 0.002721282274991789
+        }
+      },
+      {
+        "fact": "X-rays of the right wrist were taken today",
+        "verdict": "missed",
+        "confidence": 0.19324516371862605,
+        "probabilities": {
+          "correct": 0.3206898372005918,
+          "missed": 0.46216344247908403,
+          "wrong": 0.2171467203203242
+        }
+      },
+      {
+        "fact": "The fracture appears extra-articular",
+        "verdict": "correct",
+        "confidence": 0.987129232736396,
+        "probabilities": {
+          "correct": 0.9914194884909306,
+          "missed": 0.004119358073293543,
+          "wrong": 0.004461153435775596
+        }
+      },
+      {
+        "fact": "The fracture is proximal to the radioulnar joint",
+        "verdict": "correct",
+        "confidence": 0.9227977626759195,
+        "probabilities": {
+          "correct": 0.9485318417839464,
+          "missed": 0.008645701587257068,
+          "wrong": 0.042822456628796274
+        }
+      },
+      {
+        "fact": "Dorsal angulation of the distal fracture fragment is present to a variable degree",
+        "verdict": "correct",
+        "confidence": 0.9871414160060564,
+        "probabilities": {
+          "correct": 0.9914276106707043,
+          "missed": 0.0032325398953611385,
+          "wrong": 0.005339849433934659
+        }
+      },
+      {
+        "fact": "Dorsal angulation is severe",
+        "verdict": "wrong",
+        "confidence": 0.6152984444942683,
+        "probabilities": {
+          "correct": 0.20339510466131075,
+          "missed": 0.05307259900917694,
+          "wrong": 0.7435322963295122
+        }
+      },
+      {
+        "fact": "Dinner fork deformity is present",
+        "verdict": "correct",
+        "confidence": 0.3501554560464664,
+        "probabilities": {
+          "correct": 0.5667703040309776,
+          "missed": 0.03269039374928695,
+          "wrong": 0.40053930221973544
+        }
+      },
+      {
+        "fact": "An ulnar styloid fracture is present",
+        "verdict": "correct",
+        "confidence": 0.9929314566826405,
+        "probabilities": {
+          "correct": 0.995287637788427,
+          "missed": 0.0027493064419219296,
+          "wrong": 0.0019630557696509263
+        }
+      }
+    ],
+    "EXAM FINDING": [
+      {
+        "fact": "Head is normocephalic",
+        "verdict": "missed",
+        "confidence": 0.9929203390483503,
+        "probabilities": {
+          "correct": 0.0017625878288610218,
+          "missed": 0.9952802260322335,
+          "wrong": 0.0029571861389055838
+        }
+      },
+      {
+        "fact": "No swelling noted in the neck",
+        "verdict": "missed",
+        "confidence": 0.5410000734173238,
+        "probabilities": {
+          "correct": 0.23522687020757888,
+          "missed": 0.6940000489448825,
+          "wrong": 0.07077308084753843
+        }
+      },
+      {
+        "fact": "No bilateral lower extremity edema",
+        "verdict": "correct",
+        "confidence": 0.9121777854629262,
+        "probabilities": {
+          "correct": 0.9414518569752841,
+          "missed": 0.021809083296138246,
+          "wrong": 0.03673905972857767
+        }
+      },
+      {
+        "fact": "No carotid bruit",
+        "verdict": "correct",
+        "confidence": 0.9940408775489424,
+        "probabilities": {
+          "correct": 0.9960272516992951,
+          "missed": 0.0028676719471485454,
+          "wrong": 0.0011050763535564146
+        }
+      },
+      {
+        "fact": "No murmurs heard during auscultation of the heart",
+        "verdict": "correct",
+        "confidence": 0.976150360821838,
+        "probabilities": {
+          "correct": 0.9841002405478921,
+          "missed": 0.004285134211310556,
+          "wrong": 0.01161462524079732
+        }
+      },
+      {
+        "fact": "No gallops heard during auscultation of the heart",
+        "verdict": "correct",
+        "confidence": 0.9898335817755028,
+        "probabilities": {
+          "correct": 0.9932223878503352,
+          "missed": 0.004455450144637766,
+          "wrong": 0.0023221620050269667
+        }
+      },
+      {
+        "fact": "No rubs heard during auscultation of the heart",
+        "verdict": "correct",
+        "confidence": 0.9839445535193806,
+        "probabilities": {
+          "correct": 0.9892963690129205,
+          "missed": 0.0061791938079001655,
+          "wrong": 0.004524437179179242
+        }
+      },
+      {
+        "fact": "Palpable pulses to the bilateral lower extremities",
+        "verdict": "correct",
+        "confidence": 0.8451083272814371,
+        "probabilities": {
+          "correct": 0.8967388848542915,
+          "missed": 0.018118241822513856,
+          "wrong": 0.08514287332319459
+        }
+      },
+      {
+        "fact": "Normal respiratory effort",
+        "verdict": "missed",
+        "confidence": 0.8550959947758899,
+        "probabilities": {
+          "correct": 0.06122490422923627,
+          "missed": 0.9033973298505933,
+          "wrong": 0.035377765920170355
+        }
+      },
+      {
+        "fact": "No respiratory distress",
+        "verdict": "missed",
+        "confidence": 0.7173924775492715,
+        "probabilities": {
+          "correct": 0.16382891961379673,
+          "missed": 0.8115949850328477,
+          "wrong": 0.02457609535335546
+        }
+      },
+      {
+        "fact": "Lungs clear to auscultation bilaterally",
+        "verdict": "correct",
+        "confidence": 0.9973108892761141,
+        "probabilities": {
+          "correct": 0.9982072595174095,
+          "missed": 0.0009832784078229416,
+          "wrong": 0.000809462074767502
+        }
+      },
+      {
+        "fact": "GI/GU is non-distended",
+        "verdict": "missed",
+        "confidence": 0.9957319021565473,
+        "probabilities": {
+          "correct": 0.0014852501084887803,
+          "missed": 0.9971546014376983,
+          "wrong": 0.0013601484538128604
+        }
+      },
+      {
+        "fact": "No evidence of trauma to the back",
+        "verdict": "missed",
+        "confidence": 0.9893840205472052,
+        "probabilities": {
+          "correct": 0.003570889275532549,
+          "missed": 0.9929226803648035,
+          "wrong": 0.0035064303596639246
+        }
+      },
+      {
+        "fact": "No evidence of deformity of the back",
+        "verdict": "missed",
+        "confidence": 0.9950701960083922,
+        "probabilities": {
+          "correct": 0.0016589029059496778,
+          "missed": 0.9967134640055948,
+          "wrong": 0.00162763308845552
+        }
+      },
+      {
+        "fact": "No adenopathy in the neck",
+        "verdict": "correct",
+        "confidence": 0.9807051769107735,
+        "probabilities": {
+          "correct": 0.9871367846071825,
+          "missed": 0.006778289243362125,
+          "wrong": 0.006084926149455436
+        }
+      },
+      {
+        "fact": "No thyromegaly",
+        "verdict": "correct",
+        "confidence": 0.9843160868661626,
+        "probabilities": {
+          "correct": 0.9895440579107752,
+          "missed": 0.006444319660892465,
+          "wrong": 0.004011622428332334
+        }
+      },
+      {
+        "fact": "Right wrist has limited range of movement",
+        "verdict": "correct",
+        "confidence": 0.0838618975998847,
+        "probabilities": {
+          "correct": 0.3892412650665898,
+          "missed": 0.3501142412966962,
+          "wrong": 0.2606444936367141
+        }
+      },
+      {
+        "fact": "Right wrist has tenderness to palpation",
+        "verdict": "correct",
+        "confidence": 0.9675197341056971,
+        "probabilities": {
+          "correct": 0.9783464894037982,
+          "missed": 0.0051068799551884855,
+          "wrong": 0.01654663064101332
+        }
+      },
+      {
+        "fact": "Right wrist pain on flexion",
+        "verdict": "correct",
+        "confidence": 0.9785357907972473,
+        "probabilities": {
+          "correct": 0.9856905271981649,
+          "missed": 0.008235225878025148,
+          "wrong": 0.0060742469238099575
+        }
+      },
+      {
+        "fact": "Right wrist pain on extension",
+        "verdict": "correct",
+        "confidence": 0.9845681437802969,
+        "probabilities": {
+          "correct": 0.9897120958535314,
+          "missed": 0.006096392344267078,
+          "wrong": 0.004191511802201563
+        }
+      },
+      {
+        "fact": "Right wrist pain with radial deviation",
+        "verdict": "correct",
+        "confidence": 0.9770870713120573,
+        "probabilities": {
+          "correct": 0.9847247142080383,
+          "missed": 0.008193745749028874,
+          "wrong": 0.007081540042932829
+        }
+      },
+      {
+        "fact": "Right wrist pain with lateral deviation",
+        "verdict": "correct",
+        "confidence": 0.25746474760381266,
+        "probabilities": {
+          "correct": 0.5049764984025418,
+          "missed": 0.32487496332132126,
+          "wrong": 0.170148538276137
+        }
+      },
+      {
+        "fact": "Right wrist pain with abduction",
+        "verdict": "correct",
+        "confidence": 0.9537930965395661,
+        "probabilities": {
+          "correct": 0.9691953976930442,
+          "missed": 0.011894040405311043,
+          "wrong": 0.01891056190164484
+        }
+      },
+      {
+        "fact": "Right wrist pain with adduction",
+        "verdict": "correct",
+        "confidence": 0.9499202568040833,
+        "probabilities": {
+          "correct": 0.9666135045360555,
+          "missed": 0.015428573259878158,
+          "wrong": 0.01795792220406637
+        }
+      },
+      {
+        "fact": "The metacarpals are intact",
+        "verdict": "correct",
+        "confidence": 0.9944228091476119,
+        "probabilities": {
+          "correct": 0.9962818727650746,
+          "missed": 0.002633385290344503,
+          "wrong": 0.0010847419445809722
+        }
+      },
+      {
+        "fact": "Obvious bruising of the right wrist",
+        "verdict": "correct",
+        "confidence": 0.967791187757711,
+        "probabilities": {
+          "correct": 0.9785274585051407,
+          "missed": 0.005551348164097277,
+          "wrong": 0.01592119333076205
+        }
+      },
+      {
+        "fact": "Evidence of potential fracture feeling in the right wrist",
+        "verdict": "correct",
+        "confidence": 0.930656957453885,
+        "probabilities": {
+          "correct": 0.9537713049692567,
+          "missed": 0.022151876347292668,
+          "wrong": 0.024076818683450626
+        }
+      },
+      {
+        "fact": "Bony crepitus is present in the right wrist",
+        "verdict": "correct",
+        "confidence": 0.9806961605332263,
+        "probabilities": {
+          "correct": 0.9871307736888176,
+          "missed": 0.006908991052402329,
+          "wrong": 0.00596023525878008
+        }
+      }
+    ],
+    "PLAN/FOLLOW-UP": [
+      {
+        "fact": "Treatment options were discussed with the patient",
+        "verdict": "missed",
+        "confidence": 0.9536862938622187,
+        "probabilities": {
+          "correct": 0.01796621397182836,
+          "missed": 0.9691241959081458,
+          "wrong": 0.012909590120025703
+        }
+      },
+      {
+        "fact": "Right wrist ORIF is recommended",
+        "verdict": "correct",
+        "confidence": 0.649923563839454,
+        "probabilities": {
+          "correct": 0.7666157092263027,
+          "missed": 0.1180295256049635,
+          "wrong": 0.11535476516873383
+        }
+      },
+      {
+        "fact": "All indicated procedures are recommended",
+        "verdict": "missed",
+        "confidence": 0.4720130699837002,
+        "probabilities": {
+          "correct": 0.30152711036172675,
+          "missed": 0.6480087133224668,
+          "wrong": 0.05046417631580634
+        }
+      },
+      {
+        "fact": "Risks of the surgery were reviewed with the patient",
+        "verdict": "missed",
+        "confidence": 0.9961464466634498,
+        "probabilities": {
+          "correct": 0.001223589805420856,
+          "missed": 0.9974309644423,
+          "wrong": 0.0013454457522792658
+        }
+      },
+      {
+        "fact": "Benefits of the surgery were reviewed with the patient",
+        "verdict": "missed",
+        "confidence": 0.9932207510248182,
+        "probabilities": {
+          "correct": 0.0022090290209427193,
+          "missed": 0.9954805006832123,
+          "wrong": 0.002310470295844933
+        }
+      },
+      {
+        "fact": "Alternatives of the surgery were reviewed with the patient",
+        "verdict": "missed",
+        "confidence": 0.9964951302448702,
+        "probabilities": {
+          "correct": 0.0009393771838379815,
+          "missed": 0.9976634201632469,
+          "wrong": 0.0013972026529150364
+        }
+      },
+      {
+        "fact": "Operation should be scheduled as soon as possible",
+        "verdict": "correct",
+        "confidence": 0.9918688450564629,
+        "probabilities": {
+          "correct": 0.994579230037642,
+          "missed": 0.001870665016115835,
+          "wrong": 0.003550104946242044
+        }
+      },
+      {
+        "fact": "Early surgery ensures adequate healing",
+        "verdict": "missed",
+        "confidence": 0.6359140715858803,
+        "probabilities": {
+          "correct": 0.14237414696643774,
+          "missed": 0.7572760477239202,
+          "wrong": 0.10034980530964205
+        }
+      },
+      {
+        "fact": "Early surgery limits malformation of the wrist",
+        "verdict": "missed",
+        "confidence": 0.8489934531158582,
+        "probabilities": {
+          "correct": 0.0640919118613392,
+          "missed": 0.8993289687439056,
+          "wrong": 0.03657911939475528
+        }
+      },
+      {
+        "fact": "The procedure will require hospital admission for an overnight stay",
+        "verdict": "correct",
+        "confidence": 0.9949222780598245,
+        "probabilities": {
+          "correct": 0.996614852039883,
+          "missed": 0.0016734360527439812,
+          "wrong": 0.0017117119073730498
+        }
+      },
+      {
+        "fact": "Patient will be placed in a thumb spica brace",
+        "verdict": "wrong",
+        "confidence": 0.24342829381717357,
+        "probabilities": {
+          "correct": 0.00887711773504347,
+          "missed": 0.49550401972017427,
+          "wrong": 0.4956188625447824
+        }
+      },
+      {
+        "fact": "Patient will receive instructions on proper usage of the thumb spica brace",
+        "verdict": "missed",
+        "confidence": 0.6237821307286159,
+        "probabilities": {
+          "correct": 0.0142063294660214,
+          "missed": 0.7491880871524106,
+          "wrong": 0.23660558338156806
+        }
+      },
+      {
+        "fact": "Postoperative course will include wearing a brace for 6 weeks",
+        "verdict": "correct",
+        "confidence": 0.9912482466633731,
+        "probabilities": {
+          "correct": 0.994165497775582,
+          "missed": 0.002279077106844488,
+          "wrong": 0.003555425117573399
+        }
+      },
+      {
+        "fact": "Patient will initiate formal physical therapy a few weeks after surgery",
+        "verdict": "correct",
+        "confidence": 0.9724409195780077,
+        "probabilities": {
+          "correct": 0.9816272797186719,
+          "missed": 0.0017305438399130304,
+          "wrong": 0.0166421764414151
+        }
+      },
+      {
+        "fact": "Patient will attend physical therapy 3 times per week",
+        "verdict": "correct",
+        "confidence": 0.9709786994352202,
+        "probabilities": {
+          "correct": 0.9806524662901468,
+          "missed": 0.002515555524938503,
+          "wrong": 0.01683197818491468
+        }
+      },
+      {
+        "fact": "Physical therapy is to strengthen her right wrist",
+        "verdict": "missed",
+        "confidence": 0.7863188302454278,
+        "probabilities": {
+          "correct": 0.037562554880726844,
+          "missed": 0.8575458868302852,
+          "wrong": 0.10489155828898812
+        }
+      },
+      {
+        "fact": "Patient has a 2-week vacation planned in 1 month",
+        "verdict": "wrong",
+        "confidence": 0.6251745150330765,
+        "probabilities": {
+          "correct": 0.0964891779548214,
+          "missed": 0.15339447868979417,
+          "wrong": 0.7501163433553844
+        }
+      },
+      {
+        "fact": "I recommended consulting with her physical therapist to determine if she can perform exercises on her own instead of postponing her vacation",
+        "verdict": "wrong",
+        "confidence": 0.2607437069632376,
+        "probabilities": {
+          "correct": 0.15122523306667907,
+          "missed": 0.34161229562449585,
+          "wrong": 0.5071624713088251
+        }
+      },
+      {
+        "fact": "Patient will follow up in 4 weeks status post surgery to discuss her progress",
+        "verdict": "correct",
+        "confidence": 0.5729836598160528,
+        "probabilities": {
+          "correct": 0.7153224398773685,
+          "missed": 0.04207534343345641,
+          "wrong": 0.24260221668917514
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f6f8; color: #1a1a1a; }
+main { max-width: 1300px; margin: 0 auto; padding: 24px; }
+.controls { display: flex; gap: 10px; margin-bottom: 20px; }
+select { padding: 8px 10px; font: inherit; border: 1px solid #ccc; border-radius: 8px; background: #fff; }
+button { padding: 8px 24px; border: 0; border-radius: 8px; background: #4f46e5; color: #fff; font: inherit; cursor: pointer; }
+button:disabled { opacity: .5; cursor: default; }
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+@media (max-width: 800px) { .columns { grid-template-columns: 1fr; } }
+section { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px #0001; }
+section h2 { margin: 0 0 12px; font-size: 1.1rem; padding-bottom: 8px; border-bottom: 1px solid #eee; }
+pre { white-space: pre-wrap; word-wrap: break-word; font: inherit; font-size: .92rem; line-height: 1.5; margin: 0; }
+.error { color: #b00020; }
+.factcheck { margin-top: 16px; }
+.hint { color: #666; margin: -4px 0 12px; font-size: .9rem; }
+.summary { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+.summary .total { color: #555; margin-left: 6px; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: .82rem; font-weight: 600; }
+.badge.correct { background: #dcf5e3; color: #146c2e; }
+.badge.missed { background: #fff0cc; color: #8a5a00; }
+.badge.wrong { background: #fde0e3; color: #a3132a; }
+.badge.unjudged { background: #e8e8ee; color: #555; }
+.fc-section h3 { margin: 18px 0 6px; font-size: .95rem; color: #444; }
+table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+th { text-align: left; color: #666; font-weight: 600; padding: 6px 8px; border-bottom: 1px solid #eee; }
+td { padding: 7px 8px; border-bottom: 1px solid #f0f0f4; vertical-align: top; }
+td:nth-child(2), th:nth-child(2) { width: 120px; }
+td:nth-child(3), th:nth-child(3) { width: 100px; color: #666; }
+tr.wrong td:first-child { border-left: 3px solid #d6334d; }
+tr.missed td:first-child { border-left: 3px solid #e0a100; }
+tr.correct td:first-child { border-left: 3px solid #2e9e52; }

@@ -1,0 +1,93 @@
+Encounter: D2N077 (valid)
+
+DIAGNOSES/CONDITIONS:
+- Right wrist Colles fracture
+
+SYMPTOMS:
+- Chief complaint is a right wrist injury
+- Injury happened yesterday morning, 05/12/2022
+- Patient slipped on the stairs
+- Patient was carrying a laundry basket when injured
+- Patient tried to catch herself with her arms outstretched
+- Patient reports immediate onset of pain in her right wrist
+- Patient reports swelling in her right wrist
+- Patient denies any previous injuries to her right arm
+- Patient rates her pain level as 9/10
+- Pain is aggravated by movement
+- Patient reports numbness in the digits of the right hand
+- Patient reports tingling in the digits of the right hand
+- Patient has been icing her right wrist
+- Patient has been wrapping her right wrist with an ACE wrap
+- Resting her fully extended arm on a pillow alleviates some of her pain
+
+MEDICATION:
+- Patient has been taking ibuprofen
+- Ibuprofen provides some relief
+- Ultram is prescribed
+- Ultram dose is 50 mg
+- Ultram is taken every 6 hours
+- Ultram is to treat pain
+
+VITALS/LABS:
+- Blood pressure is elevated at 140/70 mmHg
+- Heart rate is 80 beats per minute
+- Respiratory rate is 20 breaths per minute
+- Body temperature is 97.2 degrees F
+- X-rays of the right wrist were taken today
+- The fracture appears extra-articular
+- The fracture is proximal to the radioulnar joint
+- Dorsal angulation of the distal fracture fragment is present to a variable degree
+- Dorsal angulation is severe
+- Dinner fork deformity is present
+- An ulnar styloid fracture is present
+
+EXAM FINDING:
+- Head is normocephalic
+- No swelling noted in the neck
+- No bilateral lower extremity edema
+- No carotid bruit
+- No murmurs heard during auscultation of the heart
+- No gallops heard during auscultation of the heart
+- No rubs heard during auscultation of the heart
+- Palpable pulses to the bilateral lower extremities
+- Normal respiratory effort
+- No respiratory distress
+- Lungs clear to auscultation bilaterally
+- GI/GU is non-distended
+- No evidence of trauma to the back
+- No evidence of deformity of the back
+- No adenopathy in the neck
+- No thyromegaly
+- Right wrist has limited range of movement
+- Right wrist has tenderness to palpation
+- Right wrist pain on flexion
+- Right wrist pain on extension
+- Right wrist pain with radial deviation
+- Right wrist pain with lateral deviation
+- Right wrist pain with abduction
+- Right wrist pain with adduction
+- The metacarpals are intact
+- Obvious bruising of the right wrist
+- Evidence of potential fracture feeling in the right wrist
+- Bony crepitus is present in the right wrist
+
+PLAN/FOLLOW-UP:
+- Treatment options were discussed with the patient
+- Right wrist ORIF is recommended
+- All indicated procedures are recommended
+- Risks of the surgery were reviewed with the patient
+- Benefits of the surgery were reviewed with the patient
+- Alternatives of the surgery were reviewed with the patient
+- Operation should be scheduled as soon as possible
+- Early surgery ensures adequate healing
+- Early surgery limits malformation of the wrist
+- The procedure will require hospital admission for an overnight stay
+- Patient will be placed in a thumb spica brace
+- Patient will receive instructions on proper usage of the thumb spica brace
+- Postoperative course will include wearing a brace for 6 weeks
+- Patient will initiate formal physical therapy a few weeks after surgery
+- Patient will attend physical therapy 3 times per week
+- Physical therapy is to strengthen her right wrist
+- Patient has a 2-week vacation planned in 1 month
+- I recommended consulting with her physical therapist to determine if she can perform exercises on her own instead of postponing her vacation
+- Patient will follow up in 4 weeks status post surgery to discuss her progress
