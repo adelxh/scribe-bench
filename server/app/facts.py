@@ -1,6 +1,6 @@
 import re
 
-from .llm import chat
+from .llm import EXTRACT_MODEL, chat
 
 SYSTEM_PROMPT = """You extract key clinical facts from a clinical note written by a doctor. Treat everything in the note as fact.
 
@@ -54,6 +54,7 @@ async def extract_facts(reference_note: str) -> tuple[str, dict[str, list[str]]]
         [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": f"Clinical note:\n\n{reference_note}\n\nExtract the key facts."},
-        ]
+        ],
+        model=EXTRACT_MODEL,
     )
     return text, parse_facts(text)

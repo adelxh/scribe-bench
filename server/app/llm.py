@@ -6,6 +6,8 @@ from dotenv import load_dotenv  # Loads key-value pairs from a .env file into en
 
 load_dotenv()  # Read server/.env so OPENROUTER_API_KEY is available via os.getenv()
 
+# Model used for fact extraction, separate from the note models to avoid sharing their rate limits.
+EXTRACT_MODEL = "nvidia/nemotron-3.5-lightning:free"
 # Models users can pick in the UI for note generation: {id: label}.
 NOTE_MODELS = {  # Dictionary mapping OpenRouter model IDs to human-readable UI names
     "inclusionai/ling-3.2-flash:free": "Ling 3.2 Flash",  # Free Ling 3.2 Flash model option
@@ -48,6 +50,7 @@ async def chat(  # Async function that sends a chat conversation to OpenRouter a
 
     data = r.json()  # Parse the JSON response body into a Python dictionary
     if r.status_code != 200:  # If the final response was still not a success
+        print(f"OpenRouter error {r.status_code} for {model}: {r.text[:500]}", flush=True)  # Show the real reason in the server log
         raise LLMError(data.get("error", {}).get("message", r.reason_phrase))  # Raise an LLMError with the API's error message (or HTTP status text as fallback)
     choices = data.get("choices") or [{}]  # Safely get the list of response choices, defaulting to a single empty dict
     return (choices[0].get("message", {}).get("content") or "").strip()  # Extract the first choice's text content, default to "", and strip leading/trailing whitespace

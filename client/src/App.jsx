@@ -72,6 +72,7 @@ export default function App() {
         body: JSON.stringify({
           generated_note: data.generated_note,
           reference_note: data.reference_note,
+          dialogue: data.dialogue,
         }),
       });
       const out = await r.json();
@@ -134,6 +135,7 @@ export default function App() {
           {checking && <p>Checking facts… this can take a little while.</p>}
           {checkError && <p className="error">{checkError}</p>}
           {check && <FactCheck check={check} />}
+          {check?.precision && <Precision precision={check.precision} />}
         </section>
       )}
     </main>
@@ -173,6 +175,61 @@ function FactCheck({ check }) {
                   <td>{r.fact}</td>
                   <td>
                     <span className={`badge ${r.verdict}`}>{LABELS[r.verdict]}</span>
+                  </td>
+                  <td>{r.confidence != null ? `${Math.round(r.confidence * 100)}%` : '—'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
+    </>
+  );
+}
+
+const P_LABELS = {
+  in_reference: 'In reference',
+  in_dialogue: 'In dialogue only',
+  hallucinated: 'Hallucinated',
+  unjudged: 'Unjudged',
+};
+
+function Precision({ precision }) {
+  const { counts, total, sections } = precision;
+  const supported = counts.in_reference + counts.in_dialogue;
+  return (
+    <>
+      <h2 className="p-title">Hallucination Check</h2>
+      <p className="hint">
+        Facts from the LLM note, checked against the dataset note first, then against the dialogue.
+      </p>
+      <div className="summary">
+        {['in_reference', 'in_dialogue', 'hallucinated'].map((v) => (
+          <span key={v} className={`badge ${v}`}>
+            {P_LABELS[v]}: {counts[v]}
+          </span>
+        ))}
+        <span className="total">
+          {supported} of {total} LLM facts supported
+        </span>
+      </div>
+      {Object.entries(sections).map(([name, rows]) => (
+        <div key={name} className="fc-section">
+          <h3>{name}</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Fact (from LLM note)</th>
+                <th>Result</th>
+                <th>Confidence</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((r, i) => (
+                <tr key={i} className={r.verdict}>
+                  <td>{r.fact}</td>
+                  <td>
+                    <span className={`badge ${r.verdict}`}>{P_LABELS[r.verdict]}</span>
                   </td>
                   <td>{r.confidence != null ? `${Math.round(r.confidence * 100)}%` : '—'}</td>
                 </tr>

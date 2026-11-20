@@ -28,3 +28,11 @@ td:nth-child(3), th:nth-child(3) { width: 100px; color: #666; }
 tr.wrong td:first-child { border-left: 3px solid #d6334d; }
 tr.missed td:first-child { border-left: 3px solid #e0a100; }
 tr.correct td:first-child { border-left: 3px solid #2e9e52; }
+.badge.in_reference { background: #dcf5e3; color: #146c2e; }
+.badge.in_dialogue { background: #dbeafe; color: #1e4fa3; }
+.badge.hallucinated { background: #fde0e3; color: #a3132a; }
+tr.in_reference td:first-child { border-left: 3px solid #2e9e52; }
+tr.in_dialogue td:first-child { border-left: 3px solid #3b82f6; }
+tr.hallucinated td:first-child { border-left: 3px solid #d6334d; }
+td:nth-child(2), th:nth-child(2) { width: 140px; }
+.p-title { margin: 28px 0 12px; font-size: 1.1rem; padding-top: 16px; border-top: 1px solid #eee; }
